@@ -653,11 +653,8 @@
 ./poc/apache/yaml-poc-apache-druid-deserialization-CT-670759.yml
 ./poc/apache/yaml-poc-apache-druid-other-CVE-2021-36749.yml
 ./poc/apache/yaml-poc-apache-druid-unauthorized_access-CVE-2021-25646.yml
-./poc/apache/yaml-poc-apache-flink-directory_traversal-CVE-2020-17518.yml
-./poc/apache/yaml-poc-apache-flink-other-CVE-2020-17519.yml
 ./poc/apache/yaml-poc-apache-flink-unauthorized_access-CT-158146.yml
 ./poc/apache/yaml-poc-apache-guacamole-weak_password-CT-442587.yml
-./poc/apache/yaml-poc-apache-ofbiz-leak-CVE-2018-8033.yml
 ./poc/apache/yaml-poc-apache-ofbiz-logical-CVE-2020-9496.yml
 ./poc/apache/yaml-poc-apache-ofbiz-logical-CVE-2021-26295.yml
 ./poc/apache/yaml-poc-apache-ofbiz-logical-CVE-2021-30128.yml
@@ -666,7 +663,6 @@
 ./poc/apache/yaml-poc-apache-solr-logical-CVE-2021-27905.yml
 ./poc/apache/yaml-poc-apache-solr-other-CVE-2019-17558.yml
 ./poc/apache/yaml-poc-apache-solr-readfile-CT-158741.yml
-./poc/apache/yaml-poc-apache-spark-unauthorized_access-CT-158705.yml
 ./poc/apache/yaml-poc-apache-unomi-other-CVE-2020-13942.yml
 ./poc/api/API-Linkfinder.yaml
 ./poc/api/API-Linkfinder_1.yaml
@@ -4659,6 +4655,7 @@
 ./poc/auth/list-all-posts-by-authors-nested-categories-and-titles-b42b05f52515fe0313f046f50f84548f.yaml
 ./poc/auth/list-all-posts-by-authors-nested-categories-and-titles.yaml
 ./poc/auth/list-all-posts-by-authors-nested-categories-and-titles_1.yaml
+./poc/auth/litemall-jwt.yaml
 ./poc/auth/livezilla-login-panel-8649.yaml
 ./poc/auth/livezilla-login-panel.yaml
 ./poc/auth/livezilla-login-panel_1.yaml
@@ -5302,7 +5299,6 @@
 ./poc/auth/nexus-default-password-9091_1.yaml
 ./poc/auth/nexus-default-password.yaml
 ./poc/auth/nexus-repository-unauthentication.yaml
-./poc/auth/no-author.yaml
 ./poc/auth/noauth-vnc.yaml
 ./poc/auth/noescape-login.yaml
 ./poc/auth/noescape-login_1.yaml
@@ -7481,10 +7477,7 @@
 ./poc/auth/yaml-poc-dell-idrac-weak_password-CT-456768.yml
 ./poc/auth/yaml-poc-ejinshan-zdv8-unauthorized_access-CT-158349.yml
 ./poc/auth/yaml-poc-h3c-secpath_bastion_host-unauthorized_access-CT-158285.yml
-./poc/auth/yaml-poc-nsfocus-uts-unauthorized_access-CT-158435.yml
-./poc/auth/yaml-poc-pyspider-pyspider-unauthorized_access-CT-158373.yml
 ./poc/auth/yaml-poc-rockmongo-rockmongo-unauthorized_access-CT-158732.yml
-./poc/auth/yaml-poc-tongda2000-office_anywhere-unauthorized_access-CT-159108.yml
 ./poc/auth/yaml-poc-topsec-topapp-unauthorized_access-CT-479138.yml
 ./poc/auth/yaml-poc-venustech-wlsj-weak_password-CT-456734.yml
 ./poc/auth/yealink-default-login.yaml
@@ -8881,6 +8874,7 @@
 ./poc/cisco/cisco-finger-detect.yaml
 ./poc/cisco/cisco-finger-detect_1.yaml
 ./poc/cisco/cisco-finger-detect_2.yaml
+./poc/cisco/cisco-firepower-panel.yaml
 ./poc/cisco/cisco-firepower-panel_1.yaml
 ./poc/cisco/cisco-imc-supervisor.yaml
 ./poc/cisco/cisco-implant-detect.yaml
@@ -8970,7 +8964,6 @@
 ./poc/cisco/cisco-vpn-FileRead.yaml
 ./poc/cisco/cisco-vpn-FileRead_1.yaml
 ./poc/cisco/ciscovpn.yaml
-./poc/cisco/yaml-poc-cisco-adaptive_security_appliance-directory_traversal-CVE-2020-3452.yml
 ./poc/cnnvd/CNNVD-200705-315.yaml
 ./poc/cnnvd/CNNVD-200705-315_1.yaml
 ./poc/cnnvd/CNNVD-201412-193.yaml
@@ -10153,9 +10146,7 @@
 ./poc/config/yaml-poc-atlassian-confluence_data_center-other-CVE-2021-26084.yml
 ./poc/config/yaml-poc-atlassian-confluence_server-directory_traversal-CVE-2019-3396.yml
 ./poc/config/yaml-poc-djangoproject-django-unsafe_config-CT-157837.yml
-./poc/config/yaml-poc-elastic-elasticsearch-unsafe_config-CVE-2014-3120.yml
 ./poc/config/yaml-poc-ifw8-fr8_firmware-unsafe_config-CVE-2019-16313.yml
-./poc/config/yaml-poc-laravel-laravel-unsafe_config-CT-158642.yml
 ./poc/config/yaml-poc-netentsec-ns_icg-unsafe_config-CT-158139.yml
 ./poc/config/yaml-poc-panabit-ixcache-unsafe_config-CT-159101.yml
 ./poc/config/zend-config-file-11777.yaml
@@ -99787,8 +99778,9 @@
 ./poc/cve/CVE-2025-25174-7713a440fd6481ec92a3d77bca209ff1.yaml
 ./poc/cve/CVE-2025-2519-44755966269966b3cf1304615c9fee14.yaml
 ./poc/cve/CVE-2025-2525-4a4f50c06f065498fee27362d9762e9c.yaml
+./poc/cve/CVE-2025-25256-oob.yaml
+./poc/cve/CVE-2025-25256.yaml
 ./poc/cve/CVE-2025-2526-ee91deed7e4def5f725289f1920525e0.yaml
-./poc/cve/CVE-2025-25291.yaml
 ./poc/cve/CVE-2025-2537-7382d36d086b3e7fcf2de097b386a7a4.yaml
 ./poc/cve/CVE-2025-2539-27ae51a05a7e40d8fa618ac4f1f0672a.yaml
 ./poc/cve/CVE-2025-2539.yaml
@@ -101774,6 +101766,7 @@
 ./poc/cve/CVE-2025-34141.yaml
 ./poc/cve/CVE-2025-34143.yaml
 ./poc/cve/CVE-2025-3415.yaml
+./poc/cve/CVE-2025-34152.yaml
 ./poc/cve/CVE-2025-3417-1d6a9664ecd54a09078e61fac0c7dcdd.yaml
 ./poc/cve/CVE-2025-3418-0aa49a393e7dc8d08134f92ab4c73898.yaml
 ./poc/cve/CVE-2025-3419-b20754924a31026d1094b3ee8463d347.yaml
@@ -103562,6 +103555,7 @@
 ./poc/cve/CVE-2025-6257-942200ca6dec77df9f159a811c699638.yaml
 ./poc/cve/CVE-2025-6258-4a4861075d292e0cf84615c5562be717.yaml
 ./poc/cve/CVE-2025-6259-ec6ddf6d35a5e3213d568deed8568d61.yaml
+./poc/cve/CVE-2025-6260.yaml
 ./poc/cve/CVE-2025-6261-94c6b6dc281f6c18a13752ed16bd86f0.yaml
 ./poc/cve/CVE-2025-6262-88ce1c7bdf835fe9779040de61aa8ab5.yaml
 ./poc/cve/CVE-2025-6290-5c68ed19c41cd1cc59ca54c69c83a5de.yaml
@@ -111185,55 +111179,37 @@
 ./poc/cve/yaml-poc-amcrest-ipm-721s_firmware-other-CVE-2017-8229.yml
 ./poc/cve/yaml-poc-auerswald-compact_5500r-other-CVE-2021-40859.yml
 ./poc/cve/yaml-poc-caucho-resin-directory_traversal-CVE-2021-44138.yml
-./poc/cve/yaml-poc-citrix-netscaler_gateway-directory_traversal-CVE-2019-19781.yml
-./poc/cve/yaml-poc-citrix-xenmobile_server-directory_traversal-CVE-2020-8209.yml
-./poc/cve/yaml-poc-d-link-dsl2888a-unauthorized_access-CVE-2020-24581.yml
 ./poc/cve/yaml-poc-dahuasecurity-tpc-bf5x21-unauthorized_access-CVE-2021-33044.yml
 ./poc/cve/yaml-poc-debian-debian_linux-logical-CVE-2021-21311.yml
 ./poc/cve/yaml-poc-dlink-dap-2020_firmware-other-CVE-2021-27250.yml
-./poc/cve/yaml-poc-dlink-dcs_series-other-CVE-2020-25078.yml
-./poc/cve/yaml-poc-dlink-router-leak-CVE-2020-9376.yml
-./poc/cve/yaml-poc-dlink-router-unauthorized_access-CVE-2019-16920.yml
-./poc/cve/yaml-poc-draytek-vigor3900-unauthorized_access-CVE-2020-8515.yml
-./poc/cve/yaml-poc-drupal-drupal-logical-CVE-2019-6340.yml
 ./poc/cve/yaml-poc-drupal-drupal-unauthorized_access-CVE-2018-7600.yml
-./poc/cve/yaml-poc-elastic-elasticsearch-unauthorized_access-CVE-2015-1427.yml
 ./poc/cve/yaml-poc-emby-emby-logical-CVE-2020-26948.yml
 ./poc/cve/yaml-poc-emlog-emlog-directory_traversal-CVE-2021-3293.yml
 ./poc/cve/yaml-poc-f5-big-ip-directory_traversal-CVE-2020-5902.yml
-./poc/cve/yaml-poc-f5-big-ip-logical-CVE-2021-22986.yml
 ./poc/cve/yaml-poc-fedoraproject-fedora-directory_traversal-CVE-2021-25282.yml
 ./poc/cve/yaml-poc-fedoraproject-fedora-directory_traversal-CVE-2021-41773.yml
 ./poc/cve/yaml-poc-fedoraproject-fedora-leak-CVE-2019-5418.yml
 ./poc/cve/yaml-poc-fedoraproject-fedora-unauthorized_access-CVE-2017-11610.yml
 ./poc/cve/yaml-poc-fedoraproject-fedora-unauthorized_access-CVE-2022-23134.yml
 ./poc/cve/yaml-poc-fit2cloud-jumpserver-unauthorized_access-CVE-2023-42442.yml
-./poc/cve/yaml-poc-fortinet-fortios-directory_traversal-CVE-2018-13379.yml
 ./poc/cve/yaml-poc-fortra-goanywhere_managed_file_transfer-logical-CVE-2023-0669.yml
 ./poc/cve/yaml-poc-glpi-project-barcode-directory_traversal-CVE-2021-43778.yml
-./poc/cve/yaml-poc-goharbor-harbor-unauthorized_access-CVE-2019-16097.yml
 ./poc/cve/yaml-poc-goharbor-harbor-unauthorized_access-CVE-2022-46463.yml
 ./poc/cve/yaml-poc-grafana-grafana-directory_traversal-CVE-2021-43798.yml
 ./poc/cve/yaml-poc-gurock-testrail-leak-CVE-2021-40875.yml
 ./poc/cve/yaml-poc-harmistechnology-je_messenger-directory_traversal-CVE-2019-9922.yml
 ./poc/cve/yaml-poc-hd-network_real-time_monitoring_system_project-hd-network_real-time_monitoring_system-directory_traversal-CVE-2021-45043.yml
-./poc/cve/yaml-poc-hikvision-ds-2cd2732f-unauthorized_access-CVE-2017-7921.yml
-./poc/cve/yaml-poc-hitachi-vantara_pentaho-unauthorized_access-CVE-2021-31602.yml
 ./poc/cve/yaml-poc-hp-integrated_lights-out_4_firmware-unauthorized_access-CVE-2017-12542.yml
 ./poc/cve/yaml-poc-ibm-aspera_faspex-logical-CVE-2022-47986.yml
 ./poc/cve/yaml-poc-igniterealtime-openfire-idor-CVE-2023-32315.yml
 ./poc/cve/yaml-poc-igniterealtime-openfire-logical-CVE-2019-18394.yml
 ./poc/cve/yaml-poc-inspur-clusterengine-unauthorized_access-CVE-2020-21224.yml
 ./poc/cve/yaml-poc-ithemes-backupbuddy-directory_traversal-CVE-2022-31474.yml
-./poc/cve/yaml-poc-jellyfin-jellyfin-directory_traversal-CVE-2021-21402.yml
-./poc/cve/yaml-poc-jenkins-jenkins-logical-CVE-2018-1000861.yml
 ./poc/cve/yaml-poc-keking-kkfileview-directory_traversal-CVE-2021-43734.yml
 ./poc/cve/yaml-poc-land-software-faust_iserver-directory_traversal-CVE-2021-34805.yml
-./poc/cve/yaml-poc-lanproxy_project-lanproxy-directory_traversal-CVE-2021-3019.yml
 ./poc/cve/yaml-poc-laravel-laravel-unauthorized_access-CVE-2021-3129.yml
 ./poc/cve/yaml-poc-liferay-liferay_portal-logical-CVE-2019-16891.yml
 ./poc/cve/yaml-poc-liferay-liferay_portal-logical-CVE-2020-7961.yml
-./poc/cve/yaml-poc-liftoffsoftware-gateone-directory_traversal-CVE-2020-35736.yml
 ./poc/cve/yaml-poc-metabase-metabase-other-CVE-2021-41277.yml
 ./poc/cve/yaml-poc-minio-minio-leak-CVE-2023-28432.yml
 ./poc/cve/yaml-poc-mobileiron-sentry-other-CVE-2020-15505.yml
@@ -111244,8 +111220,6 @@
 ./poc/cve/yaml-poc-nuuo-nvrmini_firmware-unauthorized_access-CVE-2018-14933.yml
 ./poc/cve/yaml-poc-pfsense-pfsense-other-CVE-2021-41282.yml
 ./poc/cve/yaml-poc-powerjob-powerjob-other-CVE-2023-29923.yml
-./poc/cve/yaml-poc-pulsesecure-pulse_connect_secure-directory_traversal-CVE-2019-11510.yml
-./poc/cve/yaml-poc-qnap-qts-unauthorized_access-CVE-2019-7192.yml
 ./poc/cve/yaml-poc-raspap-raspap-unauthorized_access-CVE-2021-33357.yml
 ./poc/cve/yaml-poc-redash-redash-other-CVE-2021-41192.yml
 ./poc/cve/yaml-poc-redhat-keycloak-logical-CVE-2020-10770.yml
@@ -111256,17 +111230,12 @@
 ./poc/cve/yaml-poc-sixapart-movable_type-unauthorized_access-CVE-2021-20837.yml
 ./poc/cve/yaml-poc-snapcreek-duplicator-directory_traversal-CVE-2020-11738.yml
 ./poc/cve/yaml-poc-solarwinds-orion_platform-unauthorized_access-CVE-2020-10148.yml
-./poc/cve/yaml-poc-sonatype-nexus_repository_manager-unauthorized_access-CVE-2019-7238.yml
-./poc/cve/yaml-poc-terra_master-tos-unauthorized_access-CVE-2020-15568.yml
 ./poc/cve/yaml-poc-terra_master-tos-unauthorized_access-CVE-2020-28188.yml
-./poc/cve/yaml-poc-thinkadmin-thinkadmin-directory_traversal-CVE-2020-25540.yml
 ./poc/cve/yaml-poc-unraid-unraid-other-CVE-2020-5847.yml
-./poc/cve/yaml-poc-vbulletin-vbulletin-other-CVE-2019-16759.yml
 ./poc/cve/yaml-poc-vbulletin-vbulletin-other-CVE-2020-17496.yml
 ./poc/cve/yaml-poc-vbulletin-vbulletin-unauthorized_access-CVE-2020-12720.yml
 ./poc/cve/yaml-poc-vicidial-vicidial-leak-CVE-2021-28854.yml
 ./poc/cve/yaml-poc-zeit-nextjs-directory_traversal-CVE-2020-5284.yml
-./poc/cve/yaml-poc-zeroshell-zeroshell-unauthorized_access-CVE-2019-12725.yml
 ./poc/cve/yaml-poc-zohocorp-manageengine_opmanager-leak-CVE-2020-12116.yml
 ./poc/cve/yaml-poc-zohocorp-manageengine_opmanager-unauthorized_access-CVE-2020-11946.yml
 ./poc/cve/yaml-poc-zohocorp-manageengine_servicedesk_plus-unauthorized_access-CVE-2021-44077.yml
@@ -114315,7 +114284,6 @@
 ./poc/directory_listing/wooyun-path-traversal_2.yaml
 ./poc/directory_listing/wooyun-path-traversal_3.yaml
 ./poc/directory_listing/yaml-poc-jeesite-jeesite-directory_traversal-CT-515866.yml
-./poc/directory_listing/yaml-poc-kingdee-kingdee_oa-directory_traversal-CT-194280.yml
 ./poc/directory_listing/yaml-poc-seeyon-seeyon_oa-directory_traversal-CT-469708.yml
 ./poc/directory_listing/yaml-poc-yonyou-fe-directory_traversal-CT-483417.yml
 ./poc/directory_listing/yongyou-fe-templateoftaohong-manager-path-traversal.yaml
@@ -115047,7 +115015,6 @@
 ./poc/elk/pardakht-delkhah_1.yaml
 ./poc/elk/unauthen-kibana.yaml
 ./poc/elk/yaml-poc-elastic-elasticsearch-unauthorized_access-CT-157803.yml
-./poc/elk/yaml-poc-elastic-kibana-unauthorized_access-CT-158507.yml
 ./poc/elk/zielke-design-project-gallery-2a812811744160bff200918a99d4b9e7.yaml
 ./poc/exposed/Argo_information_disclosure.yaml
 ./poc/exposed/Argo_information_disclosure_1.yaml
@@ -115323,7 +115290,6 @@
 ./poc/exposed/eea-disclosure.yaml
 ./poc/exposed/elasticsearch-cluster-settings-exposure.yaml
 ./poc/exposed/elasticsearch-config-exposure.yml
-./poc/exposed/enj-js-exposure.yml
 ./poc/exposed/env-disclosure.yaml
 ./poc/exposed/env-disclosure_1.yaml
 ./poc/exposed/env-example-file-disclosure.yaml
@@ -118130,6 +118096,7 @@
 ./poc/header/header-blind-sql-injection3.yaml
 ./poc/header/header-blind-sql-injection_1.yaml
 ./poc/header/header-blind-sqli.yaml
+./poc/header/header-blind-ssrf.yaml
 ./poc/header/header-blind-ssrf_1.yaml
 ./poc/header/header-blind-time-sql-injection.yaml
 ./poc/header/header-blind-time-sql-injection_2.yaml
@@ -119399,13 +119366,10 @@
 ./poc/java/wpdbspringclean.yaml
 ./poc/java/xray-file-upload-jsp.yml
 ./poc/java/yaml-poc-apache-tomcat-logical-CVE-2017-12615.yml
-./poc/java/yaml-poc-oracle-glassfish-directory_traversal-CVE-2017-1000028.yml
 ./poc/java/yaml-poc-oracle-glassfish-leak-CVE-2017-1000029.yml
 ./poc/java/yaml-poc-oracle-weblogic_server-unauthorized_access-CVE-2017-10271.yml
 ./poc/java/yaml-poc-redhat-jboss_enterprise_application_platform-logical-CVE-2017-7504.yml
 ./poc/java/yaml-poc-redhat-jboss_enterprise_application_platform-unauthorized_access-CVE-2017-12149.yml
-./poc/java/yaml-poc-vmware-spring_cloud_config-directory_traversal-CVE-2019-3799.yml
-./poc/java/yaml-poc-vmware-spring_cloud_config-directory_traversal-CVE-2020-5410.yml
 ./poc/java/zdet_entereditor_jsp_upload.yaml
 ./poc/java/zdet_entereditor_jsp_upload_1.yaml
 ./poc/javascript/add-custom-css-and-js.yaml
@@ -122679,8 +122643,11 @@
 ./poc/microsoft/microsoft-phish_8.yaml
 ./poc/microsoft/microsoft-phish_9.yaml
 ./poc/microsoft/microsoft-remote-web-workplace.yaml
+./poc/microsoft/microsoft-sharepoint-amsi.yaml
 ./poc/microsoft/microsoft-sharepoint-detect.yaml
 ./poc/microsoft/microsoft-sharepoint-detect_2.yaml
+./poc/microsoft/microsoft-sharepoint-favicon.yaml
+./poc/microsoft/microsoft-sharepoint-version.yaml
 ./poc/microsoft/microsoft-sharepoint.yaml
 ./poc/microsoft/microsoft-silverlight.yaml
 ./poc/microsoft/microsoft-skype-for-business.yaml
@@ -122757,6 +122724,7 @@
 ./poc/microsoft/ms10-17-eternalblue.yaml
 ./poc/microsoft/msa-gateway-read-file.yaml
 ./poc/microsoft/msafe-detect.yaml
+./poc/microsoft/msafe-panel.yaml
 ./poc/microsoft/mshift.yaml
 ./poc/microsoft/mshop-mysite-476ee02a3de040690a5d24933c3885b8.yaml
 ./poc/microsoft/mshop-mysite.yaml
@@ -123300,7 +123268,6 @@
 ./poc/microsoft/sanshuichinatelecombusinesssupportroomsystem.yaml
 ./poc/microsoft/sdcms神盾内容管理系统.yaml
 ./poc/microsoft/seaCMS-sqli.yaml
-./poc/microsoft/seacms-6-5-4-search-php-rce.yml
 ./poc/microsoft/seacms-before-v992-rce.yaml
 ./poc/microsoft/seacms-before-v992-rce.yml
 ./poc/microsoft/seacms-dmku-sqli.yaml
@@ -123999,7 +123966,6 @@
 ./poc/microsoft/yaml-poc-earcms-earcms-file_upload-CT-416449.yml
 ./poc/microsoft/yaml-poc-eyoucms-eyoucms-other-CVE-2021-39501.yml
 ./poc/microsoft/yaml-poc-kevinlab-4st_l_bems-other-CVE-2021-37292.yml
-./poc/microsoft/yaml-poc-microsoft-exchange_server-logical-CVE-2021-26855.yml
 ./poc/microsoft/yaml-poc-microsoft-exchange_server-logical-CVE-2021-34473.yml
 ./poc/microsoft/yaml-poc-microsoft-exchange_server-other-CVE-2021-41349.yml
 ./poc/microsoft/yaml-poc-mingsoft-mcms-sql_injection-CVE-2022-4375.yml
@@ -124225,12 +124191,15 @@
 ./poc/nginx/nginx-merge-slashes-path-traversal-9105.yaml
 ./poc/nginx/nginx-merge-slashes-path-traversal.yaml
 ./poc/nginx/nginx-module-vts-xss-9106.yaml
+./poc/nginx/nginx-module-vts-xss-9106_1.yaml
 ./poc/nginx/nginx-module-vts-xss-9107.yaml
 ./poc/nginx/nginx-module-vts-xss-9108.yaml
+./poc/nginx/nginx-module-vts-xss-9108_1.yaml
 ./poc/nginx/nginx-module-vts-xss-9109.yaml
 ./poc/nginx/nginx-module-vts-xss-9109_1.yaml
-./poc/nginx/nginx-module-vts-xss-9110.yaml
+./poc/nginx/nginx-module-vts-xss-9110_1.yaml
 ./poc/nginx/nginx-module-vts-xss.yaml
+./poc/nginx/nginx-module-vts-xss_1.yaml
 ./poc/nginx/nginx-module-vts-xss_2.yaml
 ./poc/nginx/nginx-proxy-manager-9111.yaml
 ./poc/nginx/nginx-proxy-manager-9111_1.yaml
@@ -124278,7 +124247,6 @@
 ./poc/nginx/nginx-vhost-traffic-status.yaml
 ./poc/nginx/nginx-vhost-traffic-status_1.yaml
 ./poc/nginx/nginx-vhost-traffic-status_2.yaml
-./poc/nginx/nginx-vhost-xss.yaml
 ./poc/nginx/nginx-vhosts-stat.yaml
 ./poc/nginx/nginx-webui-rce.yaml
 ./poc/nginx/nginx-webui-solon-rce.yaml
@@ -135953,6 +135921,7 @@
 ./poc/other/5.2.6.yaml
 ./poc/other/5.3.3.1.yaml
 ./poc/other/5.3.3.2.yaml
+./poc/other/5.3.4.yaml
 ./poc/other/5.3.9.yaml
 ./poc/other/5.5.2.yaml
 ./poc/other/50 - T15.yml
@@ -150022,6 +149991,7 @@
 ./poc/other/cryptocurrency_2.yaml
 ./poc/other/cryptographic-failures.yaml
 ./poc/other/cryptographic-failures_1.yaml
+./poc/other/cryptshare-panel.yaml
 ./poc/other/cryptxxx-dropper-malware.yaml
 ./poc/other/cryptxxx-malware.yaml
 ./poc/other/crywolf.yaml
@@ -157955,6 +157925,7 @@
 ./poc/other/fortinet-fortimanager-panel.yaml
 ./poc/other/fortinet-fortimanager-panel_1.yaml
 ./poc/other/fortinet-fortimanager-panel_2.yaml
+./poc/other/fortinet-fortimanager-panel_4.yaml
 ./poc/other/fortinet-fortinac-panel.yaml
 ./poc/other/fortinet-fortinac-panel_1.yaml
 ./poc/other/fortinet-fortinac-panel_2.yaml
@@ -158054,6 +158025,7 @@
 ./poc/other/founder-all-media-editing-system.yaml
 ./poc/other/founder-operation-management-and-decision-support-system.yaml
 ./poc/other/founder-xinwencaibian-imageProxy-download.yaml
+./poc/other/foundry-virtual-tabletop-panel.yaml
 ./poc/other/fourseasonsvpn.yaml
 ./poc/other/foursquare-checkins-e1e1a92249da54658e2d3da41734b08d.yaml
 ./poc/other/foursquare-checkins.yaml
@@ -167151,6 +167123,7 @@
 ./poc/other/manageengine-desktop_2.yaml
 ./poc/other/manageengine-desktop_3.yaml
 ./poc/other/manageengine-deviceexpert.yaml
+./poc/other/manageengine-exchangereporter-panel.yaml
 ./poc/other/manageengine-opmanager-8765.yaml
 ./poc/other/manageengine-opmanager-8766.yaml
 ./poc/other/manageengine-opmanager-8767.yaml
@@ -171917,6 +171890,7 @@
 ./poc/other/openshift-installer-panel_3.yaml
 ./poc/other/openshift-installer-panel_4.yaml
 ./poc/other/openshift_origin.yaml
+./poc/other/opensign-panel.yaml
 ./poc/other/opensis-installer.yaml
 ./poc/other/opensis-installer_1.yaml
 ./poc/other/opensis-installer_2.yaml
@@ -172168,6 +172142,7 @@
 ./poc/other/osd-subscribe-66955537f5ca829f1d6c0dca1566131b.yaml
 ./poc/other/osd-subscribe.yaml
 ./poc/other/osd-subscribe_1.yaml
+./poc/other/osgeo-geoserver-version.yaml
 ./poc/other/oshine-modules-785d411583414f69c5757eeaa00d04b0.yaml
 ./poc/other/oshine-modules-974812a9ebbf198c9b9940bdd11b1044.yaml
 ./poc/other/oshine-modules.yaml
@@ -172655,6 +172630,7 @@
 ./poc/other/paloalto-globalprotect-version-date_1.yaml
 ./poc/other/paloalto-globalprotect-version-date_2.yaml
 ./poc/other/paloalto-globalprotect.yaml
+./poc/other/paloaltonetworks-globalprotect-version.yaml
 ./poc/other/pan-os.yaml
 ./poc/other/panabit-gateway.yaml
 ./poc/other/panabit-ixcache.yaml
@@ -174144,6 +174120,7 @@
 ./poc/other/point-maker.yaml
 ./poc/other/point.yaml
 ./poc/other/pojo-accessibility-bdf47a8cf2f210d0428d23d3892df752.yaml
+./poc/other/pojo-accessibility.yaml
 ./poc/other/pokec.yaml
 ./poc/other/pokemonshowdown.yaml
 ./poc/other/pokerstrategy.yaml
@@ -186806,6 +186783,7 @@
 ./poc/other/topaccess-panel.yaml
 ./poc/other/topbar-id-for-elementor-8513861933448f8860977aebd099c336.yaml
 ./poc/other/topbar-id-for-elementor_1.yaml
+./poc/other/topdesk-panel.yaml
 ./poc/other/topquark-60aa2580f7256ea0f4baada3ad5090ae.yaml
 ./poc/other/topquark-67ce96eb97290b00c5919a918b3bcd33.yaml
 ./poc/other/topquark-d41d8cd98f00b204e9800998ecf8427e.yaml
@@ -189349,6 +189327,7 @@
 ./poc/other/versa-analytics-server_1.yaml
 ./poc/other/versa-analytics-server_2.yaml
 ./poc/other/versa-analytics-server_3.yaml
+./poc/other/versa-director-panel.yaml
 ./poc/other/versa-flexvnf-panel.yaml
 ./poc/other/versa-flexvnf-panel_1.yaml
 ./poc/other/versa-flexvnf-panel_2.yaml
@@ -194881,6 +194860,7 @@
 ./poc/php/simplesamlphp-authentication-f3c175d78e12da649ab69deea15f1f42.yaml
 ./poc/php/simplesamlphp-authentication.yaml
 ./poc/php/simplesamlphp-authentication_1.yaml
+./poc/php/simplesamlphp.yaml
 ./poc/php/symfony-phpinfo.yaml
 ./poc/php/thinkphp-50x-arbitrary-file-read.yaml
 ./poc/php/thinkphp-errors.yaml
@@ -201270,6 +201250,7 @@
 ./poc/smtp/fluent-smtp_5.yaml
 ./poc/smtp/free-wp-mail-smtp-b4f8cc1d692770ea516777dff77475ea.yaml
 ./poc/smtp/gosmtp.yaml
+./poc/smtp/interactsh-smtp.yaml
 ./poc/smtp/post-smtp-01bed4d8fc18f92e932ac3e1e0f4f5cb.yaml
 ./poc/smtp/post-smtp-1c60fa32acf2539fdc2944eaf19fbe1e.yaml
 ./poc/smtp/post-smtp-20b5a1223c8140b840ffff5422240c1d.yaml
@@ -210955,7 +210936,6 @@
 ./poc/sql/sql-reporting-services.yaml
 ./poc/sql/sql-reporting-services_1.yaml
 ./poc/sql/sql-server-bak.yaml
-./poc/sql/sql-server-dump.yaml
 ./poc/sql/sql-server-dump_1.yaml
 ./poc/sql/sql-server-dump_1_1.yaml
 ./poc/sql/sql-server-dump_2.yaml
@@ -212629,7 +212609,6 @@
 ./poc/sql/yaml-poc-joomla-joomla-sql_injection-CVE-2017-8917.yml
 ./poc/sql/yaml-poc-kainelabs-youzify-sql_injection-CVE-2022-1950.yml
 ./poc/sql/yaml-poc-metinfo-metinfo-sql_injection-CNNVD-201708-306.yml
-./poc/sql/yaml-poc-nexusdb-nexusdb-directory_traversal-CVE-2020-24571.yml
 ./poc/sql/yaml-poc-os4ed-opensis-sql_injection-CVE-2020-6637.yml
 ./poc/sql/yaml-poc-realor-gwt_system-sql_injection-CT-683765.yml
 ./poc/sql/yaml-poc-shopex-ecshop-sql_injection-CT-158128.yml
@@ -212644,7 +212623,6 @@
 ./poc/sql/yaml-poc-weaver-weaver_e_cology_oa-sql_injection-CT-442574.yml
 ./poc/sql/yaml-poc-weaver-weaver_e_cology_oa-sql_injection-CT-697307.yml
 ./poc/sql/yaml-poc-yonyou-yonyou_grp_u8-sql_injection-CT-893849.yml
-./poc/sql/yaml-poc-zabbix-zabbix-sql_injection-CVE-2016-10134.yml
 ./poc/sql/yampi-checkout-9badb984b178857e64557eafa2bc03e9.yaml
 ./poc/sql/yandex-money-button-6477bf18cad6c823db485408d49b337b.yaml
 ./poc/sql/yatri-tools-6477bf18cad6c823db485408d49b337b.yaml
@@ -213140,7 +213118,6 @@
 ./poc/ssrf/hasura-graphql-ssrf-7906.yaml
 ./poc/ssrf/hasura-graphql-ssrf.yaml
 ./poc/ssrf/hasura-graphql-ssrf_1.yaml
-./poc/ssrf/header-blind-ssrf.yaml
 ./poc/ssrf/hidden-ssrf.yaml
 ./poc/ssrf/ibm-websphere-ssrf-8126.yaml
 ./poc/ssrf/ibm-websphere-ssrf-8126_1.yaml
@@ -215298,7 +215275,6 @@
 ./poc/vmware/vmwareview.yaml
 ./poc/vmware/yaml-poc-vmware-vcenter_server-logical-CVE-2021-22005.yml
 ./poc/vmware/yaml-poc-vmware-vcenter_server-other-CVE-2021-21985.yml
-./poc/vmware/yaml-poc-vmware-vcenter_server-unauthorized_access-CVE-2021-21972.yml
 ./poc/web/360-webscan.yaml
 ./poc/web/365webcall.yaml
 ./poc/web/3cx-phone-webclient-management-panel.yaml
@@ -216847,7 +216823,6 @@
 ./poc/web/xweb500-panel_3.yaml
 ./poc/web/yaml-poc-centos-webpanel-centos_web_panel-unauthorized_access-CVE-2022-44877.yml
 ./poc/web/yaml-poc-embedthis-appweb-unauthorized_access-CVE-2018-8715.yml
-./poc/web/yaml-poc-intelliantech-aptus_web-unauthorized_access-CVE-2020-7980.yml
 ./poc/web/yaml-poc-n_soft-ewebs-readfile-CT-416457.yml
 ./poc/web/yaml-poc-superwebmailer-superwebmailer-other-CVE-2020-11546.yml
 ./poc/web/yaml-poc-webmin-webmin-unauthorized_access-CVE-2019-15107.yml
@@ -226645,7 +226620,6 @@
 ./poc/xml_external_entity/generic-blind-xxe.yaml
 ./poc/xml_external_entity/generic-blind-xxe_1_1.yaml
 ./poc/xml_external_entity/generic-blind-xxe_2.yaml
-./poc/xml_external_entity/generic-xxe.yaml
 ./poc/xml_external_entity/jamf-blind-xxe-8209.yaml
 ./poc/xml_external_entity/jamf-blind-xxe-8209_1.yaml
 ./poc/xml_external_entity/jamf-blind-xxe-8210.yaml
@@ -227181,10 +227155,8 @@
 ./poc/xss/new-user-approve-xss_2_1.yaml
 ./poc/xss/new-user-approve-xss_3.yaml
 ./poc/xss/news-script-xss_1.yaml
-./poc/xss/nginx-module-vts-xss-9106_1.yaml
-./poc/xss/nginx-module-vts-xss-9108_1.yaml
-./poc/xss/nginx-module-vts-xss-9110_1.yaml
-./poc/xss/nginx-module-vts-xss_1.yaml
+./poc/xss/nginx-module-vts-xss-9110.yaml
+./poc/xss/nginx-vhost-xss.yaml
 ./poc/xss/ninja-forms-xss.yaml
 ./poc/xss/nscript-web-studios-xss.yaml
 ./poc/xss/nuxt-js-xss.yaml
