@@ -8836,8 +8836,8 @@
 ./poc/backup/zip-backup-files_4.yaml
 ./poc/backup/zip-backup-files_5.yaml
 ./poc/cisco/cisco-ace-device-manager-929.yaml
-./poc/cisco/cisco-ace-device-manager-930.yaml
 ./poc/cisco/cisco-ace-device-manager-931.yaml
+./poc/cisco/cisco-ace-device-manager.yaml
 ./poc/cisco/cisco-ace-device-manager_1.yaml
 ./poc/cisco/cisco-acs.yaml
 ./poc/cisco/cisco-anyconnect-vpn.yaml
@@ -103869,6 +103869,7 @@
 ./poc/cve/CVE-2025-8621-f7812c77f5b541bbaaeb0fc3f3032443.yaml
 ./poc/cve/CVE-2025-8622-125077a9e015d7b3c05e063710a14007.yaml
 ./poc/cve/CVE-2025-8676-e218bebb1fc029bf21680deba324bfe4.yaml
+./poc/cve/CVE-2025-8678-97de7fcdfada2de86fce5b6e8633e94e.yaml
 ./poc/cve/CVE-2025-8680-10e87f71317e8d41f955c75ebc6e623c.yaml
 ./poc/cve/CVE-2025-8685-2ed0615344525fe065bc3f5d0d79666a.yaml
 ./poc/cve/CVE-2025-8688-c1101e5e0ea38076e06abf5122d9e979.yaml
@@ -103885,6 +103886,7 @@
 ./poc/cve/CVE-2025-8896-ab4526ef492394b46b6b908630c6d4e7.yaml
 ./poc/cve/CVE-2025-8898-32c05e01e1a14fb16803806d4b87ce1a.yaml
 ./poc/cve/CVE-2025-9202-3b35c3adc8268c05da726864661ed979.yaml
+./poc/cve/CVE-2025-9331-513443f111290b3889d860d27373b331.yaml
 ./poc/cve/CVE_2023_49442.yaml
 ./poc/cve/CVE_2023_51467.yaml
 ./poc/cve/CVE_2023_51467_1.yaml
@@ -118148,6 +118150,7 @@
 ./poc/header/based_sqli_header.yaml
 ./poc/header/beescms-header-sqli.yaml
 ./poc/header/beescms-header-sqli_1.yaml
+./poc/header/blind_xss_header.yaml
 ./poc/header/boostify-header-footer-builder-098c9b899450c0200fe6036cd3656e84.yaml
 ./poc/header/boostify-header-footer-builder-24727e32b718b5ec6f893516a4dab827.yaml
 ./poc/header/boostify-header-footer-builder-4e0b3f5938dbbcb7b6d25d649232d602.yaml
@@ -118209,6 +118212,7 @@
 ./poc/header/header-blind-sql-injection3.yaml
 ./poc/header/header-blind-sql-injection_1.yaml
 ./poc/header/header-blind-sqli.yaml
+./poc/header/header-blind-ssrf.yaml
 ./poc/header/header-blind-ssrf_1.yaml
 ./poc/header/header-blind-time-sql-injection.yaml
 ./poc/header/header-blind-time-sql-injection_2.yaml
@@ -118274,7 +118278,11 @@
 ./poc/header/header-injection(1).yaml
 ./poc/header/header-sqli.yaml
 ./poc/header/header-sqli_1.yaml
+./poc/header/header-ssrf.yaml
+./poc/header/header_blind_xss-7914.yaml
 ./poc/header/header_blind_xss-7915.yaml
+./poc/header/header_blind_xss.yaml
+./poc/header/header_blind_xss_2.yaml
 ./poc/header/header_reflection.yaml
 ./poc/header/header_reflection_body.yaml
 ./poc/header/header_reflection_body_1.yaml
@@ -118394,8 +118402,6 @@
 ./poc/header/x-recruiting-header.yaml
 ./poc/header/x-recruiting-header_1.yaml
 ./poc/header/x-recruiting-header_2.yaml
-./poc/header/xss-deprecated-header.yaml
-./poc/header/xss_in_headers.yaml
 ./poc/http/CL-TE-http-smuggling.yaml
 ./poc/http/CL-TE-http-smuggling_1.yaml
 ./poc/http/HTTP - Directory indexing.yaml
@@ -124267,7 +124273,6 @@
 ./poc/nginx/missing-nginx-bof-protection.yaml
 ./poc/nginx/missing-nginx-hsts.yaml
 ./poc/nginx/missing-nginx-rate-limit.yaml
-./poc/nginx/missing-nginx-xss-protection.yaml
 ./poc/nginx/neusoft-senginx.yaml
 ./poc/nginx/nginx-Detect.yaml
 ./poc/nginx/nginx-admin-panel.yaml
@@ -124303,12 +124308,15 @@
 ./poc/nginx/nginx-merge-slashes-path-traversal-9104_1.yaml
 ./poc/nginx/nginx-merge-slashes-path-traversal-9105.yaml
 ./poc/nginx/nginx-merge-slashes-path-traversal.yaml
+./poc/nginx/nginx-module-vts-xss-9106.yaml
+./poc/nginx/nginx-module-vts-xss-9106_1.yaml
 ./poc/nginx/nginx-module-vts-xss-9107.yaml
+./poc/nginx/nginx-module-vts-xss-9108.yaml
 ./poc/nginx/nginx-module-vts-xss-9108_1.yaml
 ./poc/nginx/nginx-module-vts-xss-9109.yaml
+./poc/nginx/nginx-module-vts-xss-9109_1.yaml
 ./poc/nginx/nginx-module-vts-xss-9110_1.yaml
 ./poc/nginx/nginx-module-vts-xss.yaml
-./poc/nginx/nginx-module-vts-xss_1.yaml
 ./poc/nginx/nginx-proxy-manager-9111.yaml
 ./poc/nginx/nginx-proxy-manager-9111_1.yaml
 ./poc/nginx/nginx-proxy-manager-9112.yaml
@@ -138818,6 +138826,7 @@
 ./poc/other/adaptive-images.yaml
 ./poc/other/adaptive-images_1.yaml
 ./poc/other/adcs-certificate.yaml
+./poc/other/adcs-certificate_1.yaml
 ./poc/other/add-actions-and-filters-0048716fcff46dadeff6c36e9cf492a7.yaml
 ./poc/other/add-actions-and-filters-82d07fba189085782fa72bc0f8a5ad60.yaml
 ./poc/other/add-actions-and-filters-b9c1d72814aa73aa702cf32008aaa413.yaml
@@ -183301,6 +183310,7 @@
 ./poc/other/spacer-075ae38a8c1da7cb621b2b71cac6674e.yaml
 ./poc/other/spacer.yaml
 ./poc/other/spacer_1.yaml
+./poc/other/spacious-b87167a8409ea8007834303ea2658205.yaml
 ./poc/other/spam-byebye-909f564930cfdd16314881097f5bbbf5.yaml
 ./poc/other/spam-byebye-9c4ed13a59352187937417840bd59288.yaml
 ./poc/other/spam-byebye.yaml
@@ -211184,6 +211194,7 @@
 ./poc/sql/sql-reporting-services.yaml
 ./poc/sql/sql-reporting-services_1.yaml
 ./poc/sql/sql-server-bak.yaml
+./poc/sql/sql-server-dump.yaml
 ./poc/sql/sql-server-dump_1.yaml
 ./poc/sql/sql-server-dump_1_1.yaml
 ./poc/sql/sql-server-dump_2.yaml
@@ -212288,6 +212299,7 @@
 ./poc/sql/wp-crm-system-0df3990a6a05113833bdb9a1ad0d2d53.yaml
 ./poc/sql/wp-crm-system-9e431315dbdf20bc0bdb981da08828a0.yaml
 ./poc/sql/wp-cron-status-checker-6477bf18cad6c823db485408d49b337b.yaml
+./poc/sql/wp-crontrol-6db7c77522917eca09707f4e619d1186.yaml
 ./poc/sql/wp-csv-to-database-f57ce484334221d1f01bd628e5f789f4.yaml
 ./poc/sql/wp-csv-to-database.yaml
 ./poc/sql/wp-custom-admin-interface-e7f4cac9b7138ea771801902dbf93547.yaml
@@ -213370,8 +213382,6 @@
 ./poc/ssrf/hasura-graphql-ssrf-7906.yaml
 ./poc/ssrf/hasura-graphql-ssrf.yaml
 ./poc/ssrf/hasura-graphql-ssrf_1.yaml
-./poc/ssrf/header-blind-ssrf.yaml
-./poc/ssrf/header-ssrf.yaml
 ./poc/ssrf/header-ssrf_1.yaml
 ./poc/ssrf/hidden-ssrf.yaml
 ./poc/ssrf/ibm-websphere-ssrf-8126.yaml
@@ -227087,7 +227097,6 @@
 ./poc/xss/blind-xss-user-agent.yaml
 ./poc/xss/blind-xss.yaml
 ./poc/xss/blind_xss_fuzz_param.yaml
-./poc/xss/blind_xss_header.yaml
 ./poc/xss/blindxss2.yaml
 ./poc/xss/btoptionscom-financial_times-xss.yaml
 ./poc/xss/btoptionscom-financial_times-xss_1.yaml
@@ -227275,11 +227284,8 @@
 ./poc/xss/graphql-playround-xss.yaml
 ./poc/xss/gz-forum-script-xss.yaml
 ./poc/xss/gz-forum-script-xss_1.yaml
-./poc/xss/header_blind_xss-7914.yaml
 ./poc/xss/header_blind_xss-7916.yaml
-./poc/xss/header_blind_xss.yaml
 ./poc/xss/header_blind_xss_1.yaml
-./poc/xss/header_blind_xss_2.yaml
 ./poc/xss/headless-advanced-dom-xss.yaml
 ./poc/xss/headless-reflected-xss.yaml
 ./poc/xss/hidden xss.yaml
@@ -227381,6 +227387,7 @@
 ./poc/xss/mida-eframework-xss.yaml
 ./poc/xss/mida-eframework-xss_1.yaml
 ./poc/xss/mida-eframework-xss_2.yaml
+./poc/xss/missing-nginx-xss-protection.yaml
 ./poc/xss/modula-image-gallery-xss.yaml
 ./poc/xss/modula-image-gallery-xss_1.yaml
 ./poc/xss/modula-image-gallery-xss_3.yaml
@@ -227447,11 +227454,8 @@
 ./poc/xss/new-user-approve-xss_2_1.yaml
 ./poc/xss/new-user-approve-xss_3.yaml
 ./poc/xss/news-script-xss_1.yaml
-./poc/xss/nginx-module-vts-xss-9106.yaml
-./poc/xss/nginx-module-vts-xss-9106_1.yaml
-./poc/xss/nginx-module-vts-xss-9108.yaml
-./poc/xss/nginx-module-vts-xss-9109_1.yaml
 ./poc/xss/nginx-module-vts-xss-9110.yaml
+./poc/xss/nginx-module-vts-xss_1.yaml
 ./poc/xss/nginx-module-vts-xss_2.yaml
 ./poc/xss/ninja-forms-xss.yaml
 ./poc/xss/nscript-web-studios-xss.yaml
@@ -227926,6 +227930,7 @@
 ./poc/xss/xss-check.yaml
 ./poc/xss/xss-check_1.yaml
 ./poc/xss/xss-cookie.yaml
+./poc/xss/xss-deprecated-header.yaml
 ./poc/xss/xss-disable-mustache-escape.yaml
 ./poc/xss/xss-domain.yaml
 ./poc/xss/xss-fetch.yaml
@@ -227956,6 +227961,7 @@
 ./poc/xss/xss.yml
 ./poc/xss/xss_fuzzer.yaml
 ./poc/xss/xss_fuzzer_1.yaml
+./poc/xss/xss_in_headers.yaml
 ./poc/xss/xssi.yaml
 ./poc/xss/xsstest.yaml
 ./poc/xss/yeswiki-stored-xss.yaml
