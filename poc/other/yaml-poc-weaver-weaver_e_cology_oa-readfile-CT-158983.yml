@@ -1,5 +1,13 @@
 name: poc-yaml-ecology-springframework-directory-traversal
+binding: 61a13d7c-9ad3-44b1-93d8-a7f8e622bb78
 manual: true
+detail:
+    author: l1nk3r
+    links:
+        - https://www.weaver.com.cn/cs/securityDownload.asp
+    vulnerability:
+        id: CT-158983
+        level: medium
 transport: http
 rules:
     r0:
@@ -10,7 +18,3 @@ rules:
             follow_redirects: false
         expression: response.status == 200 && response.body.bcontains(b"<url-pattern>/weaver/")
 expression: r0()
-detail:
-    author: l1nk3r
-    links:
-        - https://www.weaver.com.cn/cs/securityDownload.asp
