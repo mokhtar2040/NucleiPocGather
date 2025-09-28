@@ -539,13 +539,11 @@
 ./poc/airflow/airflow-debug_6.yaml
 ./poc/airflow/airflow-debug_7.yaml
 ./poc/airflow/airflow-default-credentials.yaml
-./poc/airflow/airflow-default-login-234_1.yaml
+./poc/airflow/airflow-default-credentials_1.yaml
 ./poc/airflow/airflow-default-login-234_2.yaml
 ./poc/airflow/airflow-default-login-235.yaml
-./poc/airflow/airflow-default-login-236.yaml
 ./poc/airflow/airflow-default-login.yaml
 ./poc/airflow/airflow-default-login_1.yaml
-./poc/airflow/airflow-default-login_2.yaml
 ./poc/airflow/airflow-default-login_3.yaml
 ./poc/airflow/airflow-detect-237.yaml
 ./poc/airflow/airflow-detect-238.yaml
@@ -11128,6 +11126,7 @@
 ./poc/cisco/cisco-expressway-panel.yaml
 ./poc/cisco/cisco-expressway-panel_1.yaml
 ./poc/cisco/cisco-expressway-panel_2.yaml
+./poc/cisco/cisco-expressway.yaml
 ./poc/cisco/cisco-finesse-login-938.yaml
 ./poc/cisco/cisco-finesse-login-939.yaml
 ./poc/cisco/cisco-finesse-login-940.yaml
@@ -11311,6 +11310,7 @@
 ./poc/cisco/cisco-unified-communications-log4j_5.yaml
 ./poc/cisco/cisco-unified-communications-log4j_6.yaml
 ./poc/cisco/cisco-unified-communications-log4j_7.yaml
+./poc/cisco/cisco-unity-express-panel-detect.yaml
 ./poc/cisco/cisco-unity-panel.yaml
 ./poc/cisco/cisco-unity-panel_1.yaml
 ./poc/cisco/cisco-unity-panel_2.yaml
@@ -22282,6 +22282,7 @@
 ./poc/cve/CVE-2013-6281-2281.yaml
 ./poc/cve/CVE-2013-6281-69f04445b379d1260c869c9ee27dab8f.yaml
 ./poc/cve/CVE-2013-6281-dhtmlxspreadsheet-97bff7aa-d304-4ccd-bfca-d3f18568df6c.yaml
+./poc/cve/CVE-2013-6281.yaml
 ./poc/cve/CVE-2013-6281_1.yaml
 ./poc/cve/CVE-2013-6281_10.yaml
 ./poc/cve/CVE-2013-6281_11.yaml
@@ -32968,6 +32969,7 @@
 ./poc/cve/CVE-2017-1000163_32.yaml
 ./poc/cve/CVE-2017-1000163_33.yaml
 ./poc/cve/CVE-2017-1000163_34.yaml
+./poc/cve/CVE-2017-1000163_35.yaml
 ./poc/cve/CVE-2017-1000163_4.yaml
 ./poc/cve/CVE-2017-1000163_5.yaml
 ./poc/cve/CVE-2017-1000163_6.yaml
@@ -33369,6 +33371,7 @@
 ./poc/cve/CVE-2017-11586_29.yaml
 ./poc/cve/CVE-2017-11586_3.yaml
 ./poc/cve/CVE-2017-11586_30.yaml
+./poc/cve/CVE-2017-11586_31.yaml
 ./poc/cve/CVE-2017-11586_4.yaml
 ./poc/cve/CVE-2017-11586_5.yaml
 ./poc/cve/CVE-2017-11586_6.yaml
@@ -40521,6 +40524,7 @@
 ./poc/cve/CVE-2018-19136_28.yaml
 ./poc/cve/CVE-2018-19136_29.yaml
 ./poc/cve/CVE-2018-19136_3.yaml
+./poc/cve/CVE-2018-19136_30.yaml
 ./poc/cve/CVE-2018-19136_4.yaml
 ./poc/cve/CVE-2018-19136_5.yaml
 ./poc/cve/CVE-2018-19136_6.yaml
@@ -46818,6 +46822,7 @@
 ./poc/cve/CVE-2019-18957_29.yaml
 ./poc/cve/CVE-2019-18957_3.yaml
 ./poc/cve/CVE-2019-18957_30.yaml
+./poc/cve/CVE-2019-18957_31.yaml
 ./poc/cve/CVE-2019-18957_4.yaml
 ./poc/cve/CVE-2019-18957_5.yaml
 ./poc/cve/CVE-2019-18957_6.yaml
@@ -48916,6 +48921,7 @@
 ./poc/cve/CVE-2019-9618_7.yaml
 ./poc/cve/CVE-2019-9618_8.yaml
 ./poc/cve/CVE-2019-9618_9.yaml
+./poc/cve/CVE-2019-9621.yaml
 ./poc/cve/CVE-2019-9632.yaml
 ./poc/cve/CVE-2019-9632_1.yaml
 ./poc/cve/CVE-2019-9632_10.yaml
@@ -78635,6 +78641,7 @@
 ./poc/cve/CVE-2022-0598_3.yaml
 ./poc/cve/CVE-2022-0599-1816b5f5ea49a49725f3ca9cc0efd5f6.yaml
 ./poc/cve/CVE-2022-0599-mapping_multiple_urls_redirect_same_page-514184b0-aa54-41d1-9aa0-86d120ae79c7.yaml
+./poc/cve/CVE-2022-0599.yaml
 ./poc/cve/CVE-2022-0599_1.yaml
 ./poc/cve/CVE-2022-0599_10.yaml
 ./poc/cve/CVE-2022-0599_11.yaml
@@ -93213,6 +93220,7 @@
 ./poc/cve/CVE-2022-3883_1.yaml
 ./poc/cve/CVE-2022-3883_2.yaml
 ./poc/cve/CVE-2022-3883_3.yaml
+./poc/cve/CVE-2022-38840.yaml
 ./poc/cve/CVE-2022-38870.yaml
 ./poc/cve/CVE-2022-38870_1.yaml
 ./poc/cve/CVE-2022-38870_10.yaml
@@ -121496,6 +121504,7 @@
 ./poc/cve/CVE-2023-3933_2.yaml
 ./poc/cve/CVE-2023-3936-3cf3ef4fea82b78be891182df1020740.yaml
 ./poc/cve/CVE-2023-3936-blog2social-a00147db-2ca5-4290-ae13-27be6119b751.yaml
+./poc/cve/CVE-2023-3936.yaml
 ./poc/cve/CVE-2023-39360.yaml
 ./poc/cve/CVE-2023-39361.yaml
 ./poc/cve/CVE-2023-39361_1.yaml
@@ -164225,6 +164234,7 @@
 ./poc/cve/CVE-2024-4753-f97af5ab7217f46aeba9c912ffbddfb1.yaml
 ./poc/cve/CVE-2024-4753-wp_secure_maintainance-902c017d-c907-4335-9e1e-1d23580d9caf.yaml
 ./poc/cve/CVE-2024-4753.yaml
+./poc/cve/CVE-2024-47533.yaml
 ./poc/cve/CVE-2024-47533_1.yaml
 ./poc/cve/CVE-2024-47533_2.yaml
 ./poc/cve/CVE-2024-47533_3.yaml
@@ -165565,6 +165575,7 @@
 ./poc/cve/CVE-2024-4971-learnpress-10b08a05-3561-4d05-985b-6a2339a547a7.yaml
 ./poc/cve/CVE-2024-4971.yaml
 ./poc/cve/CVE-2024-4971_1.yaml
+./poc/cve/CVE-2024-49757.yaml
 ./poc/cve/CVE-2024-49757_1.yaml
 ./poc/cve/CVE-2024-49757_10.yaml
 ./poc/cve/CVE-2024-49757_11.yaml
@@ -177712,6 +177723,7 @@
 ./poc/cve/CVE-2025-1730-043aaac24c6a31f54cac11cf62052ad0.yaml
 ./poc/cve/CVE-2025-1730-simple_download_counter-d0eafb20-4ef2-448b-9da7-ad8aa9e45215.yaml
 ./poc/cve/CVE-2025-1730.yaml
+./poc/cve/CVE-2025-1743.yaml
 ./poc/cve/CVE-2025-1743_1.yaml
 ./poc/cve/CVE-2025-1743_10.yaml
 ./poc/cve/CVE-2025-1743_11.yaml
@@ -180910,6 +180922,7 @@
 ./poc/cve/CVE-2025-24016_5.yaml
 ./poc/cve/CVE-2025-24016_6.yaml
 ./poc/cve/CVE-2025-24016_7.yaml
+./poc/cve/CVE-2025-24514.yaml
 ./poc/cve/CVE-2025-24514_1.yaml
 ./poc/cve/CVE-2025-24514_10.yaml
 ./poc/cve/CVE-2025-24514_11.yaml
@@ -190931,6 +190944,7 @@
 ./poc/cve/CVE-2025-4968-c0369656db273e152dc79a6ed45ef678.yaml
 ./poc/cve/CVE-2025-4973-31127a94baea7e7684c06c355e238f11.yaml
 ./poc/cve/CVE-2025-4973-workreap-8e7693a3-642a-4eff-902c-d29a3c12deb0.yaml
+./poc/cve/CVE-2025-49825.yaml
 ./poc/cve/CVE-2025-49854-6965ad05855477a77d0f5dfc021922da.yaml
 ./poc/cve/CVE-2025-49854-slim_seo-0d1c85c3-2aa7-4b65-a771-a4571746bfc9.yaml
 ./poc/cve/CVE-2025-49855-55e31a87a3a7bdb9323d887303775a16.yaml
@@ -202418,8 +202432,10 @@
 ./poc/default/aem-default-login_1.yaml
 ./poc/default/aem-default-login_2.yaml
 ./poc/default/aem-default-login_3.yaml
-./poc/default/airflow-default-credentials_1.yaml
 ./poc/default/airflow-default-login-234.yaml
+./poc/default/airflow-default-login-234_1.yaml
+./poc/default/airflow-default-login-236.yaml
+./poc/default/airflow-default-login_2.yaml
 ./poc/default/alibaba-canal-default-password-261.yaml
 ./poc/default/alibaba-canal-default-password-262.yaml
 ./poc/default/alibaba-canal-default-password.yaml
@@ -202708,7 +202724,6 @@
 ./poc/default/default-apache2-ubuntu-page_1.yaml
 ./poc/default/default-application-workflow.yaml
 ./poc/default/default-asp-6821.yaml
-./poc/default/default-asp-6823.yaml
 ./poc/default/default-asp-net-page-6820.yaml
 ./poc/default/default-asp-net-page-6822.yaml
 ./poc/default/default-asp-net-page-6822_1.yaml
@@ -202721,6 +202736,7 @@
 ./poc/default/default-asp-net-page_1.yaml
 ./poc/default/default-asp-net-page_2.yaml
 ./poc/default/default-asp-net-page_3.yaml
+./poc/default/default-asp.net-page.yaml
 ./poc/default/default-cakephp-page.yaml
 ./poc/default/default-cakephp-page_1.yaml
 ./poc/default/default-cakephp-page_2.yaml
@@ -203197,7 +203213,6 @@
 ./poc/default/exacqvision-default-login_3.yaml
 ./poc/default/exacqvision-default-login_4.yaml
 ./poc/default/exacqvision-default-password.yaml
-./poc/default/express-default-page_3.yaml
 ./poc/default/feiyuxing-default-login.yaml
 ./poc/default/feiyuxing-default-login_1.yaml
 ./poc/default/feiyuxing-default-login_2.yaml
@@ -221507,8 +221522,6 @@
 ./poc/nodejs/chilexpress-oficial.yaml
 ./poc/nodejs/chilexpress-oficial_1.yaml
 ./poc/nodejs/chilexpress_oficial-0999a738-9fae-4043-99eb-ff222a7608fa.yaml
-./poc/nodejs/cisco-expressway.yaml
-./poc/nodejs/cisco-unity-express-panel-detect.yaml
 ./poc/nodejs/clevernode-related-content-6a7b80438e41045ded23449d584ea06d.yaml
 ./poc/nodejs/clevernode-related-content_1.yaml
 ./poc/nodejs/clevernode_related_content-e70a1197-b5b1-4f30-a253-89eb198c670e.yaml
@@ -221547,6 +221560,7 @@
 ./poc/nodejs/express-default-page.yaml
 ./poc/nodejs/express-default-page_1.yaml
 ./poc/nodejs/express-default-page_2.yaml
+./poc/nodejs/express-default-page_3.yaml
 ./poc/nodejs/express-lfr (copy 1).yaml
 ./poc/nodejs/express-lfr-json (copy 1).yaml
 ./poc/nodejs/express-lfr-json.yaml
@@ -284056,6 +284070,7 @@
 ./poc/other/notifyvisitors-lead-form.yaml
 ./poc/other/notifyvisitors-lead-form_1.yaml
 ./poc/other/notifyvisitors_lead_form-dad9b612-5575-4e64-a1b3-52a2cf3f05a7.yaml
+./poc/other/notion-phish.yaml
 ./poc/other/notion-phish_1.yaml
 ./poc/other/notion-phish_10.yaml
 ./poc/other/notion-phish_11.yaml
@@ -285346,6 +285361,7 @@
 ./poc/other/openx-panel_5.yaml
 ./poc/other/openx-panel_6.yaml
 ./poc/other/openx-panel_7.yaml
+./poc/other/opera-phish.yaml
 ./poc/other/opera-phish_1.yaml
 ./poc/other/opera-phish_10.yaml
 ./poc/other/opera-phish_11.yaml
@@ -304758,6 +304774,7 @@
 ./poc/other/tarantool.yaml
 ./poc/other/target-notifications-1b627b329f89519ee3bf3982eec5a761.yaml
 ./poc/other/target-notifications_1.yaml
+./poc/other/target-phish.yaml
 ./poc/other/target-phish_1.yaml
 ./poc/other/target-phish_10.yaml
 ./poc/other/target-phish_11.yaml
@@ -311800,6 +311817,7 @@
 ./poc/other/visual-sound-da77998d265e6d85363b62f719565636.yaml
 ./poc/other/visual-sound.yaml
 ./poc/other/visual-studio-code-phish.yaml
+./poc/other/visual-studio-code-phish_1.yaml
 ./poc/other/visual-studio-code-phish_10.yaml
 ./poc/other/visual-studio-code-phish_11.yaml
 ./poc/other/visual-studio-code-phish_12.yaml
