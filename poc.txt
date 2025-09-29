@@ -540,10 +540,14 @@
 ./poc/airflow/airflow-debug_7.yaml
 ./poc/airflow/airflow-default-credentials.yaml
 ./poc/airflow/airflow-default-credentials_1.yaml
+./poc/airflow/airflow-default-login-234.yaml
+./poc/airflow/airflow-default-login-234_1.yaml
 ./poc/airflow/airflow-default-login-234_2.yaml
 ./poc/airflow/airflow-default-login-235.yaml
+./poc/airflow/airflow-default-login-236.yaml
 ./poc/airflow/airflow-default-login.yaml
 ./poc/airflow/airflow-default-login_1.yaml
+./poc/airflow/airflow-default-login_2.yaml
 ./poc/airflow/airflow-default-login_3.yaml
 ./poc/airflow/airflow-detect-237.yaml
 ./poc/airflow/airflow-detect-238.yaml
@@ -11123,9 +11127,7 @@
 ./poc/cisco/cisco-edge-340_7.yaml
 ./poc/cisco/cisco-email-security-detect.yaml
 ./poc/cisco/cisco-email-security-detect_1.yaml
-./poc/cisco/cisco-expressway-panel.yaml
 ./poc/cisco/cisco-expressway-panel_1.yaml
-./poc/cisco/cisco-expressway-panel_2.yaml
 ./poc/cisco/cisco-expressway.yaml
 ./poc/cisco/cisco-finesse-login-938.yaml
 ./poc/cisco/cisco-finesse-login-939.yaml
@@ -11310,7 +11312,6 @@
 ./poc/cisco/cisco-unified-communications-log4j_5.yaml
 ./poc/cisco/cisco-unified-communications-log4j_6.yaml
 ./poc/cisco/cisco-unified-communications-log4j_7.yaml
-./poc/cisco/cisco-unity-express-panel-detect.yaml
 ./poc/cisco/cisco-unity-panel.yaml
 ./poc/cisco/cisco-unity-panel_1.yaml
 ./poc/cisco/cisco-unity-panel_2.yaml
@@ -32970,6 +32971,7 @@
 ./poc/cve/CVE-2017-1000163_33.yaml
 ./poc/cve/CVE-2017-1000163_34.yaml
 ./poc/cve/CVE-2017-1000163_35.yaml
+./poc/cve/CVE-2017-1000163_36.yaml
 ./poc/cve/CVE-2017-1000163_4.yaml
 ./poc/cve/CVE-2017-1000163_5.yaml
 ./poc/cve/CVE-2017-1000163_6.yaml
@@ -33372,6 +33374,7 @@
 ./poc/cve/CVE-2017-11586_3.yaml
 ./poc/cve/CVE-2017-11586_30.yaml
 ./poc/cve/CVE-2017-11586_31.yaml
+./poc/cve/CVE-2017-11586_32.yaml
 ./poc/cve/CVE-2017-11586_4.yaml
 ./poc/cve/CVE-2017-11586_5.yaml
 ./poc/cve/CVE-2017-11586_6.yaml
@@ -40525,6 +40528,7 @@
 ./poc/cve/CVE-2018-19136_29.yaml
 ./poc/cve/CVE-2018-19136_3.yaml
 ./poc/cve/CVE-2018-19136_30.yaml
+./poc/cve/CVE-2018-19136_31.yaml
 ./poc/cve/CVE-2018-19136_4.yaml
 ./poc/cve/CVE-2018-19136_5.yaml
 ./poc/cve/CVE-2018-19136_6.yaml
@@ -46823,6 +46827,7 @@
 ./poc/cve/CVE-2019-18957_3.yaml
 ./poc/cve/CVE-2019-18957_30.yaml
 ./poc/cve/CVE-2019-18957_31.yaml
+./poc/cve/CVE-2019-18957_32.yaml
 ./poc/cve/CVE-2019-18957_4.yaml
 ./poc/cve/CVE-2019-18957_5.yaml
 ./poc/cve/CVE-2019-18957_6.yaml
@@ -202432,10 +202437,6 @@
 ./poc/default/aem-default-login_1.yaml
 ./poc/default/aem-default-login_2.yaml
 ./poc/default/aem-default-login_3.yaml
-./poc/default/airflow-default-login-234.yaml
-./poc/default/airflow-default-login-234_1.yaml
-./poc/default/airflow-default-login-236.yaml
-./poc/default/airflow-default-login_2.yaml
 ./poc/default/alibaba-canal-default-password-261.yaml
 ./poc/default/alibaba-canal-default-password-262.yaml
 ./poc/default/alibaba-canal-default-password.yaml
@@ -203213,6 +203214,7 @@
 ./poc/default/exacqvision-default-login_3.yaml
 ./poc/default/exacqvision-default-login_4.yaml
 ./poc/default/exacqvision-default-password.yaml
+./poc/default/express-default-page_1.yaml
 ./poc/default/feiyuxing-default-login.yaml
 ./poc/default/feiyuxing-default-login_1.yaml
 ./poc/default/feiyuxing-default-login_2.yaml
@@ -211804,7 +211806,7 @@
 ./poc/fuzz/random-fuzz-00.yaml
 ./poc/fuzz/random-fuzz-01.yaml
 ./poc/fuzz/random-fuzz-02.yaml
-./poc/fuzz/random-fuzz-03-9825.yaml
+./poc/fuzz/random-fuzz-03.yaml
 ./poc/fuzz/rfi-fuzz.yaml
 ./poc/fuzz/waf-fuzz.yaml
 ./poc/fuzz/windows-lfi-fuzz.yaml
@@ -221522,6 +221524,9 @@
 ./poc/nodejs/chilexpress-oficial.yaml
 ./poc/nodejs/chilexpress-oficial_1.yaml
 ./poc/nodejs/chilexpress_oficial-0999a738-9fae-4043-99eb-ff222a7608fa.yaml
+./poc/nodejs/cisco-expressway-panel.yaml
+./poc/nodejs/cisco-expressway-panel_2.yaml
+./poc/nodejs/cisco-unity-express-panel-detect.yaml
 ./poc/nodejs/clevernode-related-content-6a7b80438e41045ded23449d584ea06d.yaml
 ./poc/nodejs/clevernode-related-content_1.yaml
 ./poc/nodejs/clevernode_related_content-e70a1197-b5b1-4f30-a253-89eb198c670e.yaml
@@ -221558,7 +221563,6 @@
 ./poc/nodejs/drupal_module-quick_node_clone-access-bypass_1.yaml
 ./poc/nodejs/erlang-node.yaml
 ./poc/nodejs/express-default-page.yaml
-./poc/nodejs/express-default-page_1.yaml
 ./poc/nodejs/express-default-page_2.yaml
 ./poc/nodejs/express-default-page_3.yaml
 ./poc/nodejs/express-lfr (copy 1).yaml
