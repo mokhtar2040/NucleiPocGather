@@ -1,31 +1,31 @@
-id: page_manager_for_elementor-5b2c6eb3-6042-402d-88e1-8d9fc2291a81
+id: bm_builder-008f3754-363d-4f72-86cc-1bcea3b5cdcc
 
 info:
   name: >
-    Page Manager for Elementor <= 2.0.5 - Missing Authorization
+    BM Content Builder < 3.16.3.3 - Authenticated (Contributor+) Arbitrary File Deletion
   author: topscoder
-  severity: high
+  severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/5b2c6eb3-6042-402d-88e1-8d9fc2291a81?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/008f3754-363d-4f72-86cc-1bcea3b5cdcc?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/page-manager-for-elementor/"
-    google-query: inurl:"/wp-content/plugins/page-manager-for-elementor/"
-    shodan-query: 'http.html:"wp-content/plugins/page-manager-for-elementor/"'
-  tags: cve,wordpress,wp-plugin,page-manager-for-elementor,high,candidate
+    fofa-query: "wp-content/plugins/bm-builder/"
+    google-query: inurl:"/wp-content/plugins/bm-builder/"
+    shodan-query: 'http.html:"wp-content/plugins/bm-builder/"'
+  tags: cve,wordpress,wp-plugin,bm-builder,low,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/page-manager-for-elementor/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/bm-builder/readme.txt"
 
     extractors:
       - type: regex
@@ -51,9 +51,9 @@ http:
 
       - type: word
         words:
-          - "page-manager-for-elementor"
+          - "bm-builder"
         part: body
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 2.0.5')
+          - compare_versions(version, '< 3.16.3.3')
