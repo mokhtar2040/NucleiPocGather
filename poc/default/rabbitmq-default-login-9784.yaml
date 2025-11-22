@@ -1,6 +1,6 @@
-id: rabbitmq-default-admin
+id: rabbitmq-default-login
 info:
-  name: RabbitMQ Default Credentials
+  name: RabbitMQ admin Default Login
   author: fyoorer,dwisiswant0
   severity: high
   tags: rabbitmq,default-login
