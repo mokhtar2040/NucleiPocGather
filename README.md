@@ -4,17 +4,17 @@ NucleiPocGather，每日更新
 这个项目是一个 Python 脚本，用于批量克隆 GitHub 项目，获取 Nuclei POC，并将 POC 按类别分类存放到文件夹中。同时，使用 GitHub Action 每日自动运行脚本。
 # POC 详情统计
 
-> **当前项目 POC 更新时间：**`2025-12-24 13:03`
+> **当前项目 POC 更新时间：**`2025-12-25 13:08`
 
 | ID | 标签      | 数量 | 目录       | 数量 | 严重性   | 数量 |
 |:---| :-------- | :--- | :--------- | :--- | :------- | :--- |
-| 1 | cve | 68899 | cve | 52437 | medium | 32473 |
+| 1 | cve | 68901 | cve | 52439 | medium | 32473 |
 | 2 | wordpress | 63244 | other | 38210 | info | 25495 |
 | 3 | wp-plugin | 58888 | sql | 3105 | low | 22727 |
 | 4 | medium | 24681 | wordpress | 2353 | high | 18919 |
-| 5 | low | 21111 | auth | 2071 | critical | 11110 |
+| 5 | low | 21111 | auth | 2071 | critical | 11112 |
 | 6 | tech | 18271 | detect | 1320 | unknown | 127 |
-| 7 | detect | 17557 | default | 1011 | meduim | 4 |
+| 7 | detect | 17557 | default | 1013 | meduim | 4 |
 | 8 | production | 16146 | remote_code_execution | 1011 | hight | 3 |
 | 9 | service | 13830 | microsoft | 1007 | none | 1 |
 | 10 | candidate | 9928 | api | 996 | ciritical | 1 |
