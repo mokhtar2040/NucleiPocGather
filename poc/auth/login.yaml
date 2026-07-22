@@ -1,6 +1,6 @@
 id: login
 info:
-  name: Digi EtherLite32 logind
+  name: Siemens HiPath logind
   author: nmap,cn-kali-team
   tags: detect,tech,login,service
   severity: info
@@ -19,4 +19,4 @@ tcp:
   - name: login
     type: regex
     regex:
-    - ^\x00\r\nEL-32 EtherLite module\r\n\r\n
+    - '^\x01UX:in\.rlogind: Permission denied\.\r\n'
