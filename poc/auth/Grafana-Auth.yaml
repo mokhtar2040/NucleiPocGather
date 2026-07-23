@@ -3,11 +3,11 @@ id: Grafana_Auth
 info:
   name: Grafana basic auth
   author: excis3
-  severity: Critical
+  severity: critical
   description: Grafana default credentials
   tags: Grafana
 
-http:
+requests:
   - raw:
       - |
         GET /api/admin/settings HTTP/1.1

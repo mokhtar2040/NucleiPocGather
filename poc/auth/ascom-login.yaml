@@ -5,9 +5,9 @@ info:
   metadata:
     max-request: 1
   name: ascom
-  severity: High
+  severity: high
   tags: tech,ascom
-requests:
+http:
 - digest-password: changeme
   digest-username: admin
   matchers:

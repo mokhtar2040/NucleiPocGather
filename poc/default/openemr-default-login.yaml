@@ -16,7 +16,7 @@ info:
     shodan-query: http.html:"OpenEMR"
   tags: openemr,default-login
 
-http:
+requests:
   - raw:
       - |
         POST /interface/main/main_screen.php?auth=login&site=default HTTP/1.1
