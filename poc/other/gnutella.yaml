@@ -1,13 +1,11 @@
 id: gnutella
 info:
-  name: gtk-gnutella P2P client
+  name: Mutella Gnutella P2P client
   author: nmap,cn-kali-team
   tags: detect,tech,gnutella,service
   severity: info
   metadata:
-    info: $2
     rarity: 1
-    version: $1
 tcp:
 - name: get-request
   inputs:
@@ -19,4 +17,4 @@ tcp:
   - name: gnutella
     type: regex
     regex:
-    - '^HTTP/1\.[01] 404 Not Found\r\nServer: gtk-gnutella/(\d[-.\w]+) \(([^\)\r\n]+)\)\r\n'
+    - '^HTTP/1\.0 200\r\nServer: Mutella\r\n'
