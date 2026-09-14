@@ -156877,6 +156877,7 @@
 ./poc/debug/go-pprof-debug.yaml
 ./poc/debug/imageresizer-debug-exposure.yaml
 ./poc/debug/istio-pilot-debug-anonymous.yaml
+./poc/debug/jboss-seam-debug-page-8240.yaml
 ./poc/debug/lanhai-jifei-debug-rce.yaml
 ./poc/debug/lanhaizhuoyue-debug-rce.yaml
 ./poc/debug/laravel-debug-405.yaml
@@ -156933,6 +156934,7 @@
 ./poc/debug/soap-ajax-debugshell_2.yaml
 ./poc/debug/ssp_debugging-66f29499-1522-43cd-af78-9b734c66af8c.yaml
 ./poc/debug/ssrf-proxy-header-debug.yaml
+./poc/debug/struts-debug-mode-10559.yaml
 ./poc/debug/struts-debug-mode-10560.yaml
 ./poc/debug/struts-debug-mode-10561.yaml
 ./poc/debug/symfony-debug-pro.yaml
@@ -158119,6 +158121,7 @@
 ./poc/detect/custom-jasper-path-traversal-detect.yaml
 ./poc/detect/custom-logapi-log-detect.yaml
 ./poc/detect/custom-map-view-detect.yaml
+./poc/detect/custom-mapview-jsp-detect.yaml
 ./poc/detect/custom-microsoft-ssrf-detect.yaml
 ./poc/detect/custom-misc-server-detect.yaml
 ./poc/detect/custom-oracle-ebs-ACPV-detect.yaml
@@ -159952,6 +159955,7 @@
 ./poc/detect/sglang-detect_1.yaml
 ./poc/detect/shibboleth-detect.yaml
 ./poc/detect/shibboleth-detect_1.yaml
+./poc/detect/shiro-detect-10196.yaml
 ./poc/detect/shopizer-detect-1.yaml
 ./poc/detect/shopizer-detect-2.yaml
 ./poc/detect/shopizer-detect.yaml
@@ -160129,6 +160133,7 @@
 ./poc/detect/splunk-favicon-detect.yaml
 ./poc/detect/splunk-hec-detect.yaml
 ./poc/detect/spnego-detect.yaml
+./poc/detect/springboot-detect.yaml
 ./poc/detect/sql-injection-detection.yaml
 ./poc/detect/sql-injection-detector.yaml
 ./poc/detect/sqlcipher-detection.yaml
@@ -166712,7 +166717,6 @@
 ./poc/java/custom-jetty-server-path-normalization-detect.yaml
 ./poc/java/custom-jreport-admin-creds.yaml
 ./poc/java/custom-jreport-admin-creds_1.yaml
-./poc/java/custom-mapview-jsp-detect.yaml
 ./poc/java/custom-weblogic-SSRF-detect.yaml
 ./poc/java/custom_css_and_javascript-a56eae11-578e-40d3-8a89-72af7d4d42e1.yaml
 ./poc/java/cve-2017-10271_weblogic_xmldecoder反序列化漏洞.yaml
@@ -166857,7 +166861,6 @@
 ./poc/java/jboss-remoting.yaml
 ./poc/java/jboss-seam-debug-page-8238.yaml
 ./poc/java/jboss-seam-debug-page-8239.yaml
-./poc/java/jboss-seam-debug-page-8240.yaml
 ./poc/java/jboss-seam-debug-page.yaml
 ./poc/java/jboss-sensitive-disclose.yaml
 ./poc/java/jboss-soa-platform.yaml
@@ -166979,7 +166982,6 @@
 ./poc/java/shiro-deserialization-detection.yaml
 ./poc/java/shiro-deserialization-detection_2.yaml
 ./poc/java/shiro-detect-10195.yaml
-./poc/java/shiro-detect-10196.yaml
 ./poc/java/shiro-detect-10197.yaml
 ./poc/java/shiro-detect.yaml
 ./poc/java/shiro-key-detect.yaml
@@ -167108,7 +167110,6 @@
 ./poc/java/springboot-configprops_6.yaml
 ./poc/java/springboot-configprops_7.yaml
 ./poc/java/springboot-configprops_9.yaml
-./poc/java/springboot-detect.yaml
 ./poc/java/springboot-dump-1.yaml
 ./poc/java/springboot-dump-10446.yaml
 ./poc/java/springboot-dump-10447.yaml
@@ -167278,7 +167279,6 @@
 ./poc/java/springcloud-cve-2019-3799.yml
 ./poc/java/springcloud-function-spel-rce.yaml
 ./poc/java/springer.yaml
-./poc/java/struts-debug-mode-10559.yaml
 ./poc/java/struts-debug-mode.yaml
 ./poc/java/struts-ognl-console.yaml
 ./poc/java/struts-problem-report-10562.yaml
@@ -261678,7 +261678,7 @@
 ./poc/php/ThinkPHP 6.x 日志泄露.yaml
 ./poc/php/ThinkPHP3远程代码执行.yaml
 ./poc/php/ThinkPHP5 5.0.23 远程代码执行漏洞.yaml
-./poc/php/ThinkPHP5-5-x-远程代码执行漏洞.yaml
+./poc/php/ThinkPHP5 5.x 远程代码执行漏洞.yaml
 ./poc/php/ThinkPHP5_5_0_23_远程代码执行漏洞.yaml
 ./poc/php/ThinkPHP5_5_x_远程代码执行漏洞.yaml
 ./poc/php/ThinkPHP_2_x_任意代码执行漏洞.yaml
